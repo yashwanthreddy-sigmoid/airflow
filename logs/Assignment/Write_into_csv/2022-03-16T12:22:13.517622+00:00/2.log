@@ -1,0 +1,75 @@
+[2022-03-16 12:23:42,005] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: Assignment.Write_into_csv manual__2022-03-16T12:22:13.517622+00:00 [queued]>
+[2022-03-16 12:23:42,110] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: Assignment.Write_into_csv manual__2022-03-16T12:22:13.517622+00:00 [queued]>
+[2022-03-16 12:23:42,114] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-16 12:23:42,115] {taskinstance.py:1244} INFO - Starting attempt 2 of 2
+[2022-03-16 12:23:42,117] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-16 12:23:42,241] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): Write_into_csv> on 2022-03-16 12:22:13.517622+00:00
+[2022-03-16 12:23:42,259] {standard_task_runner.py:52} INFO - Started process 1592 to run task
+[2022-03-16 12:23:42,286] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'Assignment', 'Write_into_csv', 'manual__2022-03-16T12:22:13.517622+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/DAG_file.py', '--cfg-path', '/tmp/tmpr9lsi1s5', '--error-file', '/tmp/tmp1lj10cyg']
+[2022-03-16 12:23:42,289] {standard_task_runner.py:77} INFO - Job 8: Subtask Write_into_csv
+[2022-03-16 12:23:42,601] {logging_mixin.py:109} INFO - Running <TaskInstance: Assignment.Write_into_csv manual__2022-03-16T12:22:13.517622+00:00 [running]> on host e8c8ac0dbee4
+[2022-03-16 12:23:42,906] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=***@***.com
+AIRFLOW_CTX_DAG_OWNER=Airflow
+AIRFLOW_CTX_DAG_ID=Assignment
+AIRFLOW_CTX_TASK_ID=Write_into_csv
+AIRFLOW_CTX_EXECUTION_DATE=2022-03-16T12:22:13.517622+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-03-16T12:22:13.517622+00:00
+[2022-03-16 12:23:45,175] {logging_mixin.py:109} INFO - {'coord': {'lon': 85.1167, 'lat': 25.6}, 'weather': [{'id': 721, 'main': 'Haze', 'description': 'haze', 'icon': '50d'}], 'base': 'stations', 'main': {'temp': 91.33, 'feels_like': 95.23, 'temp_min': 91.33, 'temp_max': 91.33, 'pressure': 1002, 'humidity': 46}, 'visibility': 5000, 'wind': {'speed': 3.44, 'deg': 50}, 'clouds': {'all': 1}, 'dt': 1647433207, 'sys': {'type': 1, 'id': 9129, 'country': 'IN', 'sunrise': 1647390492, 'sunset': 1647433708}, 'timezone': 19800, 'id': 1260086, 'name': 'Patna', 'cod': 200}
+[2022-03-16 12:23:45,824] {logging_mixin.py:109} INFO - {'coord': {'lon': 77.2167, 'lat': 28.6667}, 'weather': [{'id': 721, 'main': 'Haze', 'description': 'haze', 'icon': '50d'}], 'base': 'stations', 'main': {'temp': 91.49, 'feels_like': 91.17, 'temp_min': 91.49, 'temp_max': 91.49, 'pressure': 1004, 'humidity': 35}, 'visibility': 4500, 'wind': {'speed': 9.22, 'deg': 290}, 'clouds': {'all': 30}, 'dt': 1647433344, 'sys': {'type': 1, 'id': 9165, 'country': 'IN', 'sunrise': 1647392411, 'sunset': 1647435580}, 'timezone': 19800, 'id': 1273294, 'name': 'Delhi', 'cod': 200}
+[2022-03-16 12:23:46,427] {logging_mixin.py:109} INFO - {'coord': {'lon': 77.6033, 'lat': 12.9762}, 'weather': [{'id': 801, 'main': 'Clouds', 'description': 'few clouds', 'icon': '02d'}], 'base': 'stations', 'main': {'temp': 88.39, 'feels_like': 85.05, 'temp_min': 85.86, 'temp_max': 89.24, 'pressure': 940, 'humidity': 22}, 'visibility': 6000, 'wind': {'speed': 10.36, 'deg': 60}, 'clouds': {'all': 20}, 'dt': 1647433345, 'sys': {'type': 2, 'id': 2017753, 'country': 'IN', 'sunrise': 1647392200, 'sunset': 1647435605}, 'timezone': 19800, 'id': 1277333, 'name': 'Bengaluru', 'cod': 200}
+[2022-03-16 12:23:46,953] {logging_mixin.py:109} INFO - {'coord': {'lon': 74.0833, 'lat': 15.3333}, 'weather': [{'id': 804, 'main': 'Clouds', 'description': 'overcast clouds', 'icon': '04d'}], 'base': 'stations', 'main': {'temp': 84.58, 'feels_like': 86.86, 'temp_min': 84.58, 'temp_max': 84.58, 'pressure': 1006, 'humidity': 54, 'sea_level': 1006, 'grnd_level': 992}, 'visibility': 10000, 'wind': {'speed': 7.74, 'deg': 279, 'gust': 9.31}, 'clouds': {'all': 99}, 'dt': 1647433346, 'sys': {'type': 1, 'id': 9233, 'country': 'IN', 'sunrise': 1647393062, 'sunset': 1647436433}, 'timezone': 19800, 'id': 1271157, 'name': 'Goa', 'cod': 200}
+[2022-03-16 12:23:47,824] {logging_mixin.py:109} INFO - {'coord': {'lon': 72.8479, 'lat': 19.0144}, 'weather': [{'id': 711, 'main': 'Smoke', 'description': 'smoke', 'icon': '50d'}], 'base': 'stations', 'main': {'temp': 100.38, 'feels_like': 96.89, 'temp_min': 93.09, 'temp_max': 100.38, 'pressure': 1004, 'humidity': 17}, 'visibility': 3500, 'wind': {'speed': 11.5, 'deg': 320}, 'clouds': {'all': 4}, 'dt': 1647433346, 'sys': {'type': 1, 'id': 9052, 'country': 'IN', 'sunrise': 1647393385, 'sunset': 1647436702}, 'timezone': 19800, 'id': 1275339, 'name': 'Mumbai', 'cod': 200}
+[2022-03-16 12:23:48,393] {logging_mixin.py:109} INFO - {'coord': {'lon': 75.8167, 'lat': 26.9167}, 'weather': [{'id': 803, 'main': 'Clouds', 'description': 'broken clouds', 'icon': '04d'}], 'base': 'stations', 'main': {'temp': 97.92, 'feels_like': 94.87, 'temp_min': 97.92, 'temp_max': 97.92, 'pressure': 1006, 'humidity': 20}, 'visibility': 7000, 'wind': {'speed': 6.91, 'deg': 320}, 'clouds': {'all': 69}, 'dt': 1647433347, 'sys': {'type': 1, 'id': 9170, 'country': 'IN', 'sunrise': 1647392733, 'sunset': 1647435930}, 'timezone': 19800, 'id': 1269515, 'name': 'Jaipur', 'cod': 200}
+[2022-03-16 12:23:48,930] {logging_mixin.py:109} INFO - {'coord': {'lon': 78.4744, 'lat': 17.3753}, 'weather': [{'id': 803, 'main': 'Clouds', 'description': 'broken clouds', 'icon': '04d'}], 'base': 'stations', 'main': {'temp': 91.81, 'feels_like': 87.98, 'temp_min': 91.81, 'temp_max': 98.11, 'pressure': 1009, 'humidity': 19}, 'visibility': 6000, 'wind': {'speed': 11.5, 'deg': 20}, 'clouds': {'all': 82}, 'dt': 1647433130, 'sys': {'type': 1, 'id': 9214, 'country': 'IN', 'sunrise': 1647392024, 'sunset': 1647435364}, 'timezone': 19800, 'id': 1269843, 'name': 'Hyderabad', 'cod': 200}
+[2022-03-16 12:23:49,580] {logging_mixin.py:109} INFO - {'coord': {'lon': 73.8553, 'lat': 18.5196}, 'weather': [{'id': 800, 'main': 'Clear', 'description': 'clear sky', 'icon': '01d'}], 'base': 'stations', 'main': {'temp': 96.71, 'feels_like': 91.72, 'temp_min': 96.71, 'temp_max': 96.71, 'pressure': 1006, 'humidity': 10, 'sea_level': 1006, 'grnd_level': 947}, 'visibility': 10000, 'wind': {'speed': 7.56, 'deg': 48, 'gust': 10.65}, 'clouds': {'all': 6}, 'dt': 1647433348, 'sys': {'country': 'IN', 'sunrise': 1647393140, 'sunset': 1647436464}, 'timezone': 19800, 'id': 1259229, 'name': 'Pune', 'cod': 200}
+[2022-03-16 12:23:50,161] {logging_mixin.py:109} INFO - {'message': 'You have exceeded the rate limit per minute for your plan, BASIC, by the API provider'}
+[2022-03-16 12:23:50,164] {taskinstance.py:1718} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/current_wheather_data.py", line 24, in write_csv
+    list_item = [data["name"],data["weather"][0]["description"],data["main"]["temp"], data["main"]["feels_like"],
+KeyError: 'name'
+[2022-03-16 12:23:50,223] {taskinstance.py:1282} INFO - Marking task as FAILED. dag_id=Assignment, task_id=Write_into_csv, execution_date=20220316T122213, start_date=20220316T122342, end_date=20220316T122350
+[2022-03-16 12:23:50,294] {standard_task_runner.py:92} ERROR - Failed to execute job 8 for task Write_into_csv
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/current_wheather_data.py", line 24, in write_csv
+    list_item = [data["name"],data["weather"][0]["description"],data["main"]["temp"], data["main"]["feels_like"],
+KeyError: 'name'
+[2022-03-16 12:23:50,327] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-03-16 12:23:50,488] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

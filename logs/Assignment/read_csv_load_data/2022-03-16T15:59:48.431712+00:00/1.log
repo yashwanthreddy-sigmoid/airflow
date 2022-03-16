@@ -1,0 +1,48 @@
+[2022-03-16 16:00:18,945] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: Assignment.read_csv_load_data manual__2022-03-16T15:59:48.431712+00:00 [queued]>
+[2022-03-16 16:00:18,998] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: Assignment.read_csv_load_data manual__2022-03-16T15:59:48.431712+00:00 [queued]>
+[2022-03-16 16:00:19,000] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-16 16:00:19,002] {taskinstance.py:1244} INFO - Starting attempt 1 of 2
+[2022-03-16 16:00:19,003] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-16 16:00:19,067] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): read_csv_load_data> on 2022-03-16 15:59:48.431712+00:00
+[2022-03-16 16:00:19,085] {standard_task_runner.py:52} INFO - Started process 3034 to run task
+[2022-03-16 16:00:19,102] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'Assignment', 'read_csv_load_data', 'manual__2022-03-16T15:59:48.431712+00:00', '--job-id', '17', '--raw', '--subdir', 'DAGS_FOLDER/DAG_file.py', '--cfg-path', '/tmp/tmpvheu_os7', '--error-file', '/tmp/tmpysfndps7']
+[2022-03-16 16:00:19,105] {standard_task_runner.py:77} INFO - Job 17: Subtask read_csv_load_data
+[2022-03-16 16:00:19,345] {logging_mixin.py:109} INFO - Running <TaskInstance: Assignment.read_csv_load_data manual__2022-03-16T15:59:48.431712+00:00 [running]> on host e8c8ac0dbee4
+[2022-03-16 16:00:19,566] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=***@***.com
+AIRFLOW_CTX_DAG_OWNER=Airflow
+AIRFLOW_CTX_DAG_ID=Assignment
+AIRFLOW_CTX_TASK_ID=read_csv_load_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-03-16T15:59:48.431712+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-03-16T15:59:48.431712+00:00
+[2022-03-16 16:00:19,787] {logging_mixin.py:109} INFO -         State      Description  Temperature  ...  Max_Temperature  Humidity  Clouds
+0       Patna             haze        82.33  ...            82.33        61       1
+1       Delhi             haze        84.29  ...            87.31        54      87
+2   Bengaluru             haze        82.04  ...            82.04        30      20
+3         Goa  overcast clouds        82.78  ...            82.78        85      89
+4      Mumbai            smoke        94.98  ...            94.98        20       2
+5      Jaipur             haze        85.32  ...            85.32        32      47
+6   Hyderabad       few clouds        75.61  ...            83.71        38      24
+7        Pune       few clouds        83.57  ...            83.57        20      18
+8   Hyderabad       few clouds        75.61  ...            83.71        38      24
+9  Chandigarh        clear sky        77.25  ...            77.25        34       6
+
+[10 rows x 8 columns]
+[2022-03-16 16:00:19,808] {logging_mixin.py:109} INFO - added..
+[2022-03-16 16:00:19,822] {logging_mixin.py:109} INFO - added..
+[2022-03-16 16:00:19,825] {logging_mixin.py:109} INFO - added..
+[2022-03-16 16:00:19,835] {logging_mixin.py:109} INFO - added..
+[2022-03-16 16:00:19,838] {logging_mixin.py:109} INFO - added..
+[2022-03-16 16:00:19,841] {logging_mixin.py:109} INFO - added..
+[2022-03-16 16:00:19,845] {logging_mixin.py:109} INFO - added..
+[2022-03-16 16:00:19,848] {logging_mixin.py:109} INFO - added..
+[2022-03-16 16:00:19,852] {logging_mixin.py:109} INFO - added..
+[2022-03-16 16:00:19,857] {logging_mixin.py:109} INFO - added..
+[2022-03-16 16:00:19,862] {logging_mixin.py:109} INFO - values are Inserted successfully
+[2022-03-16 16:00:19,864] {logging_mixin.py:109} INFO - No issues
+[2022-03-16 16:00:19,867] {python.py:175} INFO - Done. Returned value was: None
+[2022-03-16 16:00:19,939] {taskinstance.py:1282} INFO - Marking task as SUCCESS. dag_id=Assignment, task_id=read_csv_load_data, execution_date=20220316T155948, start_date=20220316T160018, end_date=20220316T160019
+[2022-03-16 16:00:20,041] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-03-16 16:00:20,171] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
