@@ -14,10 +14,9 @@ def write_csv():
               "Pune", "Hyderabad", "chandigarh"]
 
     data_to_write = []
-    #print("ndfjbihbfei")
 
     for city in cities:
-        querystring = {"q":f"{city},india","lat":"0","lon":"0","id":"2172797","lang":"null","units":"imperial","mode":"JSON"}
+        querystring = {"q":f"{city},india","units":"imperial","mode":"JSON"}
         response = requests.request("GET", url, headers=headers, params=querystring)
         data = response.json()
         print(data)
