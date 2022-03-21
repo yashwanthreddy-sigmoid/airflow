@@ -1,4 +1,3 @@
-import pandas
 import psycopg2
 
 
